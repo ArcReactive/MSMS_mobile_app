@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewPatientsActivity">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="135dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/home"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="247dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="134dp"
+        android:text="View Patients"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:layout_width="395dp"
+        android:layout_height="515dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="Student ID"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="First Name"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="Last Name"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="NIC / Passport"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="Date of Birth"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="Mobile"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="Batch"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="Faculty"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="Gender"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="Emergency"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:fadingEdge="horizontal|vertical"
+                    android:padding="1dp"
+                    android:text="Address"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+    </HorizontalScrollView>
+
+</android.support.constraint.ConstraintLayout>
